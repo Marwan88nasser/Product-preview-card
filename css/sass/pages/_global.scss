@@ -1,0 +1,15 @@
+* {
+  @include reset-all;
+}
+
+button {
+  @include reset-button
+}
+
+body {
+  min-height: 100vh;
+  @include flex-center;
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+  background-color: $body-bg;
+}

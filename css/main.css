@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.product-cart {
+  display: flex;
+  margin: 20px;
+  width: 650px;
+  max-width: 100%;
+  height: 520px;
+}
+.product-cart .pro-img {
+  flex-basis: 50%;
+  background: no-repeat center/cover;
+  background-image: url(../../../images/image-product-desktop.jpg);
+  border-radius: 13px 0px 0px 13px;
+}
+.product-cart .pro-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 50%;
+  padding: 25px 35px;
+  border-radius: 0px 13px 13px 0px;
+  background-color: #FFF;
+}
+.product-cart .pro-info .category {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+}
+.product-cart .pro-info .name {
+  margin-bottom: 28px;
+  font-family: "Fraunces", serif;
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 42px;
+  color: hsl(212, 21%, 14%);
+}
+.product-cart .pro-info .des {
+  margin-bottom: 28px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  color: hsl(228, 12%, 48%);
+}
+.product-cart .pro-info .price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-family: "Fraunces", serif;
+  font-size: 37px;
+  color: hsl(158, 36%, 37%);
+}
+.product-cart .pro-info .price del {
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+.product-cart .pro-info .btn-add {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFF;
+  background-color: hsl(158, 36%, 37%);
+}
+@media (max-width: 767.98px) {
+  .product-cart {
+    height: 700px;
+    flex-direction: column;
+  }
+  .product-cart .pro-img {
+    height: 230px;
+    border-radius: 13px 13px 0px 0px;
+    background-image: url(../../../images/image-product-mobile.jpg);
+  }
+  .product-cart .pro-info {
+    border-radius: 0px 0px 13px 13px;
+  }
+}/*# sourceMappingURL=main.css.map */
