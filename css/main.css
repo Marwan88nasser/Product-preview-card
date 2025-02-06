@@ -19,6 +19,10 @@ body {
   background-color: hsl(30, 38%, 92%);
 }
 
+.d-none {
+  display: none;
+}
+
 .product-cart {
   display: flex;
   margin: 20px;
