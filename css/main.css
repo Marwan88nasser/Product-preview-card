@@ -28,7 +28,7 @@ body {
 .product-cart .pro-img {
   flex-basis: 50%;
   background: no-repeat center/cover;
-  background-image: url(../../../images/image-product-desktop.jpg);
+  background-image: url(../images/image-product-desktop.jpg);
   border-radius: 13px 0px 0px 13px;
 }
 .product-cart .pro-info {
@@ -104,7 +104,7 @@ body {
   .product-cart .pro-img {
     height: 230px;
     border-radius: 13px 13px 0px 0px;
-    background-image: url(../../../images/image-product-mobile.jpg);
+    background-image: url(../images/image-product-mobile.jpg);
   }
   .product-cart .pro-info {
     border-radius: 0px 0px 13px 13px;
