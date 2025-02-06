@@ -6,6 +6,7 @@
 
 button {
   border: none;
+  cursor: pointer;
 }
 
 body {
@@ -93,8 +94,12 @@ body {
   border-radius: 8px;
   font-size: 16px;
   font-weight: 500;
+  transition: 0.3s;
   color: #FFF;
   background-color: hsl(158, 36%, 37%);
+}
+.product-cart .pro-info .btn-add:hover {
+  background-color: #1a4031;
 }
 @media (max-width: 767.98px) {
   .product-cart {
